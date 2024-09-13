@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+}
+
+.semaforo{
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.luz {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: #555;
+    transition: background-color 0,5 ease ;
+
+}
+
+.vermelho{
+    background-color: #861c1c ;
+}
+
+.amarelo{
+    background-color: #ffe12f ;
+}  
+
+.verde{
+    background-color: #006400 ;
+}
